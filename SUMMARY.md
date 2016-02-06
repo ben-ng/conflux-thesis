@@ -1,3 +1,4 @@
 # Summary
 
-1. [Introduction](introduction.md)
+* [Read Me](README.md)
+* [Introduction](introduction.md)
