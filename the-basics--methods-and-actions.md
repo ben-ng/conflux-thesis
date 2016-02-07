@@ -16,7 +16,7 @@ Methods can return one of three values:
 * `Error`, if the requested transition would result in an inconsistent state
 * `Action`, a data structure describing the transition that the system should make
 
-![An example of methods ensuring external consistency](diagrams/external-inconsistency.png)
+![An example of methods ensuring external consistency](diagrams/external-consistency.png)
 
 Redux applications implicitly encode the *idea* of a method in a user interface. For example, buttons may appear or disappear to reflect available transitions. Coupling the user interface with the consistency of the application state is messy, and more importantly, not suitable for applications without a user interface.
 
