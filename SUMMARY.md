@@ -2,6 +2,9 @@
 
 * [Read Me](README.md)
 * [Introduction](introduction.md)
-* [The Basics](the-basics.md)
-  * [State Trees](the-basics--state-trees.md)
-  * [Methods & Actions](the-basics--methods-and-actions.md)
+* [Key Ideas](key-ideas.md)
+  * [State Trees](key-ideas--state-trees.md)
+  * [Actions](key-ideas--actions.md)
+  * [Reducers](key-ideas--reducers.md)
+  * [Methods](key-ideas--methods.md)
+  * [Committed & Provisional State](key-ideas--committed-and-provisional-state.md)
