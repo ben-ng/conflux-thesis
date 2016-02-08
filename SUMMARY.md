@@ -1,6 +1,6 @@
 # Summary
 
-* [Read Me](README.md)
+* [About This Book](README.md)
 * [Introduction](introduction.md)
 * [Key Ideas](key-ideas.md)
   * [State Trees](key-ideas--state-trees.md)

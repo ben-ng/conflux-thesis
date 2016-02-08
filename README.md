@@ -1,4 +1,4 @@
-# Conflux
+# About This Book
 
 Conflux is an abstraction for shared memory that makes it easier to design consistent distributed systems. It is based on the [Redux](http://redux.js.org) adaptation of the [Flux architecture](https://facebook.github.io/flux/docs/overview.html), and uses the [Raft consensus algorithm](http://raft.github.io).
 
