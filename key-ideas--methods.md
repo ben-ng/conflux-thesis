@@ -4,7 +4,7 @@ Redux is *internally consistent*, but not necessarily *externally consistent* [^
 
 ![An example of internally consistent but externally inconsistent state](diagrams/external-inconsistency.png)
 
-Conflux ensures external consistency using *methods*. Methods are synchronous procedures that inspect the state of the application and may dispatch an action if the transition results in an externally consistent state.
+Conflux ensures external consistency using *methods*. Methods are synchronous procedures that inspect the state of the application and may emit an action if the transition results in an externally consistent state.
 
 Methods can return one of three values:
 
