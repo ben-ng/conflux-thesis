@@ -1,5 +1,14 @@
 # Introduction
 
+
+> A programmer has a problem.
+>
+> She thought to herself, "I know, I'll solve it with threads!".
+>
+> has Now problems. two she
+>
+> (Unknown)
+
 Cloud computing has made it possible to scale an application from one to thousands of servers just by dragging a slider. Since this results in concurrent processes with mutable shared state, care must be taken to avoid non-deterministic behavior. Instead of coordinating these processes, web architectures are usually designed to be as stateless as possible. This is commonly done by implementing a REST[^1] API on top of HTTP, both stateless protocols. The these APIs are then served by stateless processes attached to backing resources such as relational databases and key-value stores.[^2]
 
 ![A "Stateless" Web Architecture](diagrams/stateless-web-architecture.png)
