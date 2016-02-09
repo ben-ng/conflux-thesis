@@ -1,10 +1,10 @@
 # Methods
 
-Redux is *internally consistent*, but not necessarily *externally consistent* [^1] -- it is possible for an application using Redux to enter an invalid state that the programmer never anticipated. This is because Redux does not specify any rules that restrict *when* an action may be dispatched.
+Redux is predictable, but not necessarily consistent -- it is possible for an application using Redux to enter a state that the programmer never anticipated. This is because Redux does not specify any rules that restrict *when* an action may be dispatched.
 
-![An example of internally consistent but externally inconsistent state](diagrams/external-inconsistency.png)
+![An example of inconsistent state](diagrams/external-inconsistency.png)
 
-Conflux ensures external consistency using *methods*. Methods are synchronous procedures that inspect the state of the application and may emit an action if the transition results in an externally consistent state.
+In Conflux, actions are dispatched through *methods*. Methods are synchronous procedures that inspect the state of the application and *may* emit an action if the transition results in a consistent state.
 
 Methods can return one of three values:
 
@@ -12,8 +12,6 @@ Methods can return one of three values:
 * `Error`, if the requested transition would result in an inconsistent state
 * `Action`, a data structure describing the transition that the system should make
 
-![An example of methods ensuring external consistency](diagrams/external-consistency.png)
+![An example of methods ensuring consistency](diagrams/external-consistency.png)
 
-Redux applications implicitly encode the *idea* of a method in a user interface. For example, buttons may appear or disappear to reflect available transitions. Coupling the user interface with the consistency of the application state is messy, and more importantly, is not possible in applications without a user interface.
-
-[^1]: Hofstadter, Douglas R. Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic, 1979. Print.
+Redux applications typically use the user interface to keep application state consistent. For example, buttons may appear or disappear to reflect available actions. Using the user interface to keep application state consistent is messy, and more importantly, is not possible in applications without a user interface.
