@@ -119,6 +119,7 @@ if action.type = TIE
 return state
 ```
 
-[https://conflux-demos.herokuapp.com/tic-tac-toe](Demo)
-[https://github.com/ben-ng/conflux-demos/tree/master/demos/tic-tac-toe](Source Code)
+[Live Demo](https://conflux-demos.herokuapp.com/tic-tac-toe)
+
+[Source Code](https://github.com/ben-ng/conflux-demos/tree/master/demos/tic-tac-toe)
 

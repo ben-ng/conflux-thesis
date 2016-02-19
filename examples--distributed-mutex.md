@@ -53,4 +53,4 @@ if action.type is UNLOCK
 return state
 ```
 
-[https://github.com/ben-ng/mutex-js](Source Code)
+[Demo & Source Code](https://github.com/ben-ng/mutex-js)
