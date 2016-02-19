@@ -26,7 +26,7 @@ else
 
 ## Actions
 
-### Action(LOCK, key, nonce, duration)
+### Action(LOCK, key, nonce)
 
 * key *String* - The dictionary key to lock
 * nonce *String* - A random string, preferably a V4 UUID
