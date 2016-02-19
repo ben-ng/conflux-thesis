@@ -8,3 +8,6 @@
   * [Reducers](key-ideas--reducers.md)
   * [Methods](key-ideas--methods.md)
   * [Committed & Provisional State](key-ideas--committed-and-provisional-state.md)
+* [Examples](examples.md)
+  * [Distributed Mutex](examples--distributed-mutex.md)
+  * [Tic-Tac-Toe](examples--tic-tac-toe.md)
