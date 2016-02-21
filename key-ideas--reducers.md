@@ -2,7 +2,7 @@
 
 Reducers are pure functions that transform a state tree by applying an action.
 
-$$ reduce (state_0, action) \rightarrow state_1 $$
+$$ reduce (state, action) \rightarrow state' $$
 
 Their implementation is not important, but reducers tend to be nested `switch` statements that operate on immutable data structures.
 
