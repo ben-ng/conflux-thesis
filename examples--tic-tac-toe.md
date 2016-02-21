@@ -89,7 +89,7 @@ if state is null
 	// 3 4 5
 	// 6 7 8
 
-	state.board := new Array([-1, -1, -1, -1, -1, -1, -1, -1, -1])
+	state.board := Array([-1, -1, -1, -1, -1, -1, -1, -1, -1])
 	state.move := 0
 	state.game := 0
 	state.playerTwoJoined := false
