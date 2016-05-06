@@ -13,5 +13,5 @@
 * [Examples](examples.md)
   * [Distributed Mutex](examples--distributed-mutex.md)
   * [Tic-Tac-Toe](examples--tic-tac-toe.md)
-  * [Collaborative Editing](examples--collaborative-editing.md)
+* [Performance](performance.md)
 * [Conclusion](conclusion.md)
