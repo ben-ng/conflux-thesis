@@ -1,6 +1,6 @@
 # Walkthrough
 
-The primary idea behind Conflux is that immutable state trees can be implemented using a distributed log. Application development using immutable state trees is fairly well understood, and with a few minor modifications, the same architecture can be used to build distributed applications.
+The primary idea behind Conflux is that familiar architectures based on immutable state trees can be implemented on top of a distributed log. Application development using immutable state trees is fairly well understood, and with a few minor modifications, the same architecture can be used to build distributed applications.
 
 A secondary idea is that declarative user interfaces provide an interesting view into distributed systems, and enable new ways of interacting with them. These interfaces allow us to create interesting applications that blur the line between clients and servers.
 
@@ -26,3 +26,5 @@ The method may also time out, which results in an error value. If the method ret
 When an action is committed, the node immediately uses its reducer function to produce a new state tree. If the system has a visual interface, the new state tree is used to declare the new user interface.
 
 ![Overview of Conflux](diagrams/conflux-overview--walkthrough-4.png)
+
+This cycle continues for the life of the application.
